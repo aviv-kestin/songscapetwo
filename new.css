@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+
+.start {
+display: flex;
+background-color:#68d1f1;
+height: 70vh;
+}
+
+
+
+ .set {
+display: flex;
+flex-direction:column-reverse;
+background-color: rgb(71, 152, 73);
+height: 30vh;
+
+}
+
+
+  #image {
+    display: flex;
+    position: absolute;
+    height: 24vh;
+    width: auto;
+    right: 180px;
+    top: 80px;
+    animation: rotation 2s linear 0s infinite;
+    animation-play-state: paused;
+  }
+  
+  @keyframes rotation {
+    to {
+      transform: rotate(360deg)
+    }
+  }
+
+  #lebouton {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    height: 4vh;
+    width: auto;
+  }
+
+  .tree 
+
+  
+  
+
+#mine {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+#yours {
+    position: absolute;
+    top: 270px;
+    left: 500px;
+}
+
